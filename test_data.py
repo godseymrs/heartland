@@ -1,0 +1,20 @@
+class Test_Data:
+   DELAY = 4
+   URL_JACKETS = "https://magento.softwaretestingboard.com/women/tops-women/jackets-women.html"
+   URL_CART = 'https://magento.softwaretestingboard.com/checkout/cart/'
+   TITLE_JACKETS = "Jackets - Tops - Women"
+   TITLE_CART = "Shopping Cart"
+   TITLE_CHECKOUT = "Checkout"
+   TITLE_SUCCESS = "Success Page"
+   RESULT_QTY = 12
+   ORDER_QTY = 5
+   TOTAL_PRICE = "$308.00"
+   EMAIL = "fdklsjf@gkafj.com"
+   FIRST_NAME =  'firstname'
+   LAST_NAME = 'lastname'
+   ADDRESS = 'addy'
+   CITY = 'city'
+   STATE = 'North Carolina'
+   ZIPCODE = '27617'
+   PHONE = '111-222-3333'
+   ORDER_STRING = "Your order # is: "

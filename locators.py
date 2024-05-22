@@ -1,0 +1,26 @@
+
+from selenium.webdriver.common.by import By
+
+class Locators:
+    FILTER_SIZE_CATEGORY = (By.XPATH, "//div[contains(text(),'Size')]")
+    FILTER_MEDIUM = (By.XPATH, "//div[@class='swatch-attribute swatch-layered size']//a[@aria-label='M']/div")
+    RESULTS_PHOTOS = (By.XPATH, "//a[@class='product photo product-item-photo']")
+    PRODUCT_QTY = (By.ID, "qty")
+    PRODUCT_MEDIUM = (By.XPATH,"//div[@option-tooltip-value='M']")
+    PRODUCT_BLUE = (By.XPATH,"//div[@aria-label='Blue']")
+    PRODUCT_ADD_TO_CART = ((By.ID, "product-addtocart-button"))
+    CART_ITEM_COUNT = (By.CLASS_NAME, "counter-number")
+    TOTAL_PRICE = (By.XPATH, "//tr[@class='grand totals']//span[@class='price']")
+    PROCEED_TO_CHECKOUT = (By.XPATH, "//ul[@class='checkout methods items checkout-methods-items']//button")
+    CHECKOUT_EMAIL = (By.XPATH, "//fieldset[@id='customer-email-fieldset']//input")
+    CHECKOUT_FIRST_NAME = (By.XPATH, "//div[@name='shippingAddress.firstname']//input")
+    CHECKOUT_LAST_NAME = (By.XPATH, "//div[@name='shippingAddress.lastname']//input")
+    CHECKOUT_ADDRESS = (By.XPATH, "//div[@name='shippingAddress.street.0']//input")
+    CHECKOUT_CITY = (By.XPATH, "//div[@name='shippingAddress.city']//input")
+    CHECKOUT_STATE = (By.XPATH, "//div[@name='shippingAddress.region_id']//select")
+    CHECKOUT_ZIP = (By.XPATH, "//div[@name='shippingAddress.postcode']//input")
+    CHECKOUT_PHONE = (By.XPATH, "//div[@name='shippingAddress.telephone']//input")
+    CHECKOUT_METHOD = (By.XPATH, "//input[@name='ko_unique_1']")
+    CHECKOUT_NEXT = (By.XPATH, "//button[@class='button action continue primary']")
+    CHECKOUT_PLACE_ORDER = (By.XPATH, "//button[@class='action primary checkout']")
+    CHECKOUT_SUCCESS = (By.XPATH, "//div[@class='checkout-success']")
